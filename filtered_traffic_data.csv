@@ -1,0 +1,1 @@
+id,mode,country_code,state_code,county_fips,segment_name,osm_id,highway,segment_length_m,segment_id,year,month,match_dir,day_type,day_part,trips_volume,trips_sample_count,vmt,geom,created_at,updated_at,trips_volume_masked,trips_sample_count_masked,geometry
