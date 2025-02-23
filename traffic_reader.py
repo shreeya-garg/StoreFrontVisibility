@@ -2,7 +2,8 @@ import pandas as pd
 
 def traffic_for_osm(osm_id):
     median = 3118.0
-    csv_file = "/Users/shreeyagarg/spring2024/StoreFrontVisibility/traffic_data_sample.csv"   ##NEED TO CONVERT THIS TO NOT BE COMPLETE PATH
+    #csv_file = "/Users/shreeyagarg/spring2024/StoreFrontVisibility/traffic_data_sample.csv"   ##NEED TO CONVERT THIS TO NOT BE COMPLETE PATH
+    csv_file = "traffic_data_sample.csv"
 
     # Process in chunks (e.g., 100,000 rows at a time)  
     chunk_size = 100000  
@@ -53,7 +54,7 @@ def traffic_for_osm(osm_id):
 
 
 
-traffic_for_osm("245700194")
+#traffic_for_osm("245700194")
 
 
 
